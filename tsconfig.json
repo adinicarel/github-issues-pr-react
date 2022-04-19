@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ES5" /* Specify ECMAScript target version */,
+		"sourceMap": true,
+		"lib": ["dom", "dom.iterable", "ESNext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": false,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"jsx": "react",
+		"removeComments": true,
+		"outDir": "dist"
+	},
+	"exclude": ["node_modules", "public", "prod", "build", "dist"],
+    "include": ["src/**/*"]
+}
